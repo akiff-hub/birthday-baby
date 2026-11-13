@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy Birthday Baby 💖</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --pink1:#ffe4ec; --pink2:#ffc2d6; --pink3:#ff8fb3; --pink4:#e84b81; --ungu:#b48cf2; --teks:#5a2a40;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Poppins',sans-serif; color:var(--teks);
+    background:linear-gradient(160deg,var(--pink1),#f3e3ff 55%,var(--pink2));
+    background-attachment:fixed; min-height:100vh; overflow-x:hidden;
+  }
+  #hati{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
+  .love{position:absolute;bottom:-40px;animation:naik linear forwards;opacity:.7}
+  @keyframes naik{to{transform:translateY(-115vh) rotate(40deg);opacity:0}}
+
+  section{position:relative;z-index:1;padding:70px 20px;max-width:760px;margin:auto;text-align:center}
+  .hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center}
+  .kecil{letter-spacing:4px;font-size:.8rem;text-transform:uppercase;color:var(--pink4)}
+  h1{font-family:'Great Vibes',cursive;font-weight:400;font-size:clamp(3.2rem,12vw,6rem);color:var(--pink4);line-height:1.1;margin:10px 0;text-shadow:0 4px 20px rgba(232,75,129,.25)}
+  .sub{font-weight:300;font-size:1.05rem;margin-bottom:30px}
+  .kek{font-size:4rem;animation:bounce 2s ease-in-out infinite}
+  @keyframes bounce{50%{transform:translateY(-12px)}}
+
+  .btn{
+    border:none;cursor:pointer;font-family:inherit;font-size:1rem;font-weight:600;
+    padding:14px 30px;border-radius:50px;color:#fff;margin:6px;
+    background:linear-gradient(135deg,var(--pink3),var(--pink4));
+    box-shadow:0 8px 24px rgba(232,75,129,.35);transition:.25s;
+  }
+  .btn:hover{transform:translateY(-3px) scale(1.03)}
+  .btn.lagu{background:linear-gradient(135deg,var(--ungu),#7d5fe0);box-shadow:0 8px 24px rgba(125,95,224,.35)}
+
+  h2{font-family:'Great Vibes',cursive;font-weight:400;font-size:2.8rem;color:var(--pink4);margin-bottom:30px}
+  .kad{
+    background:rgba(255,255,255,.65);backdrop-filter:blur(8px);
+    border:1px solid rgba(255,255,255,.9);border-radius:24px;padding:28px 26px;margin:18px 0;
+    box-shadow:0 10px 30px rgba(232,75,129,.15);line-height:1.8;
+    opacity:0;transform:translateY(40px);transition:all .8s ease;
+  }
+  .kad.nampak{opacity:1;transform:none}
+  .kad .ikon{font-size:1.8rem;display:block;margin-bottom:8px}
+
+  .surat p{margin:14px 0;line-height:1.9}
+  .tandatangan{font-family:'Great Vibes',cursive;font-size:2.2rem;color:var(--pink4);margin-top:20px}
+
+  #lilin{display:none;margin-top:20px;font-size:1.2rem}
+  footer{position:relative;z-index:1;text-align:center;padding:40px 20px 60px;font-size:.85rem;color:var(--pink4)}
+  .tersembunyi{display:none}
+</style>
+</head>
+<body>
+
+<div id="hati"></div>
+
+<!-- ========== BAHAGIAN 1: HERO ========== -->
+<section class="hero">
+  <p class="kecil">14 November · Hari Istimewa Kau</p>
+  <div class="kek">🎂</div>
+  <h1>Happy Birthday,<br><span id="namaDia">Baby</span></h1>
+  <p class="sub">Ada sesuatu yang sayang buat khas untuk baby 💌</p>
+  <div>
+    <button class="btn" id="btnBuka">Buka Hadiah 🎁</button>
+    <button class="btn lagu" id="btnLagu">▶ Mainkan Lagu</button>
+  </div>
+</section>
+
+<!-- ========== BAHAGIAN 2: UCAPAN ========== -->
+<div id="kandungan" class="tersembunyi">
+  <section>
+    <h2>Untuk Baby 💕</h2>
+
+    <div class="kad"><span class="ikon">🌸</span>
+      Selamat hari lahir, baby. Terima kasih sebab lahir ke dunia ni, sebab kalau tak, sayang tak akan jumpa orang paling istimewa dalam hidup sayang.
+    </div>
+
+    <div class="kad"><span class="ikon">✨</span>
+      Senyuman baby tu satu-satunya benda yang boleh buat hari sayang jadi cerah, walaupun hari tu penat macam mana sekalipun.
+    </div>
+
+    <div class="kad"><span class="ikon">🤍</span>
+      Sayang tak janji hidup kita akan sentiasa mudah, tapi sayang janji akan sentiasa ada dengan baby, masa suka dan masa susah.
+    </div>
+
+    <div class="kad"><span class="ikon">🌙</span>
+      Semoga tahun ni baby sentiasa sihat, bahagia, murah rezeki, dan semua impian baby satu persatu jadi nyata. Sayang akan sokong baby sampai bila-bila.
+    </div>
+
+    <div class="kad"><span class="ikon">💖</span>
+      Baby bukan sekadar awek sayang. Baby kawan, tempat sayang mengadu, dan rumah untuk hati sayang.
+    </div>
+  </section>
+
+  <!-- ========== BAHAGIAN 3: SURAT ========== -->
+  <section class="surat">
+    <h2>Surat Kecil Untuk Baby 💌</h2>
+    <div class="kad">
+      <p>Baby,</p>
+      <p>Kadang sayang tak pandai nak cakap benda sweet depan baby. Tapi dalam hati, baby sentiasa jadi orang pertama yang sayang fikir bila bangun tidur, dan orang terakhir sebelum sayang lelapkan mata.</p>
+      <p>Terima kasih sebab sabar dengan sayang, sebab faham sayang, dan sebab pilih untuk terus bersama sayang. Itu hadiah paling besar dalam hidup sayang.</p>
+      <p>Hari ni hari baby. Hari ni sayang nak baby rasa betapa disayangi dan betapa berharganya baby pada sayang. 🥹</p>
+      <div class="tandatangan">Dengan sepenuh hati,<br><span id="namaAku">Sayang</span> 💘</div>
+    </div>
+  </section>
+
+  <!-- ========== BAHAGIAN 4: TIUP LILIN ========== -->
+  <section>
+    <h2>Buat Satu Hajat 🕯️</h2>
+    <p style="margin-bottom:20px">Pejam mata, buat satu wish, lepas tu tekan butang bawah ni.</p>
+    <div class="kek" id="lilinKek">🎂</div>
+    <div>
+      <button class="btn" id="btnTiup">Tiup Lilin 🌬️</button>
+    </div>
+    <p id="lilin">Semoga hajat baby termakbul. Sayang sayang baby sangat-sangat! 💗</p>
+  </section>
+
+  <footer>Dibuat dengan 💖 khas untuk baby</footer>
+</div>
+
+<script>
+  /* ======= UBAH DI SINI ======= */
+  const NAMA_DIA = "Baby";      // nama panggilan awek kau
+  const NAMA_AKU = "Sayang";    // nama panggilan kau
+  /* ============================ */
+
+  document.getElementById('namaDia').textContent = NAMA_DIA;
+  document.getElementById('namaAku').textContent = NAMA_AKU;
+
+  /* ---- Hati terbang ---- */
+  const hatiBox = document.getElementById('hati');
+  const simbol = ['💖','💕','🌸','✨','💗','🤍','🎀'];
+  function buatHati(){
+    const e = document.createElement('span');
+    e.className = 'love';
+    e.textContent = simbol[Math.floor(Math.random()*simbol.length)];
+    e.style.left = Math.random()*100 + 'vw';
+    e.style.fontSize = (14 + Math.random()*24) + 'px';
+    e.style.animationDuration = (6 + Math.random()*6) + 's';
+    hatiBox.appendChild(e);
+    setTimeout(()=>e.remove(), 12500);
+  }
+  setInterval(buatHati, 500);
+
+  /* ---- Buka hadiah ---- */
+  document.getElementById('btnBuka').addEventListener('click', () => {
+    document.getElementById('kandungan').classList.remove('tersembunyi');
+    for(let i=0;i<25;i++) setTimeout(buatHati, i*60);
+    setTimeout(()=>document.getElementById('kandungan').scrollIntoView({behavior:'smooth'}), 100);
+    pemerhati();
+    if(!sedangMain) mulaLagu();
+  });
+
+  /* ---- Kad muncul bila scroll ---- */
+  function pemerhati(){
+    const obs = new IntersectionObserver((senarai)=>{
+      senarai.forEach(en=>{ if(en.isIntersecting){ en.target.classList.add('nampak'); } });
+    },{threshold:.2});
+    document.querySelectorAll('.kad').forEach(k=>obs.observe(k));
+  }
+
+  /* ---- Tiup lilin ---- */
+  document.getElementById('btnTiup').addEventListener('click', () => {
+    document.getElementById('lilin').style.display = 'block';
+    document.getElementById('lilinKek').textContent = '🎉';
+    for(let i=0;i<40;i++) setTimeout(buatHati, i*50);
+  });
+
+  /* ---- Lagu Happy Birthday (dimainkan terus dalam browser, tak perlu fail mp3) ---- */
+  let ctx, sedangMain = false, timer;
+  const N = {G4:392,A4:440,B4:494,C5:523,D5:587,E5:659,F5:698,G5:784};
+  const melodi = [
+    ['G4',.75],['G4',.25],['A4',1],['G4',1],['C5',1],['B4',2],
+    ['G4',.75],['G4',.25],['A4',1],['G4',1],['D5',1],['C5',2],
+    ['G4',.75],['G4',.25],['G5',1],['E5',1],['C5',1],['B4',1],['A4',2],
+    ['F5',.75],['F5',.25],['E5',1],['C5',1],['D5',1],['C5',2]
+  ];
+  const TEMPO = 0.5; // saat sebatu (kecilkan = laju)
+
+  function mainNota(freq, mula, tempoh){
+    const o = ctx.createOscillator();
+    const g = ctx.createGain();
+    o.type = 'sine';
+    o.frequency.value = freq;
+    g.gain.setValueAtTime(0, mula);
+    g.gain.linearRampToValueAtTime(.25, mula+.03);
+    g.gain.exponentialRampToValueAtTime(.001, mula+tempoh);
+    o.connect(g).connect(ctx.destination);
+    o.start(mula); o.stop(mula+tempoh+.05);
+  }
+
+  function mulaLagu(){
+    if(!ctx) ctx = new (window.AudioContext || window.webkitAudioContext)();
+    if(ctx.state === 'suspended') ctx.resume();
+    sedangMain = true;
+    document.getElementById('btnLagu').textContent = '⏸ Berhenti Lagu';
+    let t = ctx.currentTime + .1;
+    melodi.forEach(([nota, beat])=>{
+      const dur = beat*TEMPO;
+      mainNota(N[nota], t, dur*0.95);
+      t += dur;
+    });
+    const jumlah = (t - ctx.currentTime) * 1000;
+    timer = setTimeout(()=>{ if(sedangMain) mulaLagu(); }, jumlah + 800); // ulang
+  }
+
+  function henti(){
+    sedangMain = false;
+    clearTimeout(timer);
+    if(ctx) ctx.close().then(()=>{ ctx = null; });
+    document.getElementById('btnLagu').textContent = '▶ Mainkan Lagu';
+  }
+
+  document.getElementById('btnLagu').addEventListener('click', ()=>{
+    sedangMain ? henti() : mulaLagu();
+  });
+</script>
+</body>
+</html>
